@@ -1,5 +1,27 @@
 # SimpleGelf
 That class example demostrate as to use provider.
+
+The appsettings.json file may config:
+
+"LogConfig": {
+"NameFile": "C:\Logs\ApiBIlling\apiLog",
+"LogEventLevel": 4,
+"FlushToDiskIntervalHour": 24,
+"Providers": [ "File", "Console", "Graylog" ]
+},
+"GelfLoggerConfig": {
+"User": "",
+"Password": "",
+"UsingAuthenticate": false,
+"Host": "http://127.0.0.1",
+"Port": 12201,
+"LogSource": "billing_api",
+"HttpTimeoutSeconds": 30,
+"ListLogLevel": [ 4, 5 ]
+},
+
+That class example demostrate as to use provider.
+
 public class ApplicationLogging : ILoggingService
     {
         private static ILoggerFactory _Factory = null;
