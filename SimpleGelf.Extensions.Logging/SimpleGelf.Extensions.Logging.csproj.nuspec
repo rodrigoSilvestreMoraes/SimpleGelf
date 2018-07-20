@@ -7,7 +7,7 @@
     <owners>Rodrigo Silvestre de Moraes</owners>
     <licenseUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</licenseUrl>
     <projectUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf/tree/master/SimpleGelf.Extensions.Logging/sharingan.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package SimpleGelf</description>
     <releaseNotes>This is simple extension the .Net Core for using as provider loggin..</releaseNotes>
