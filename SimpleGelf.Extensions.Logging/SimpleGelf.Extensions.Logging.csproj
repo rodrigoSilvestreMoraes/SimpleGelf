@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Rodrigo Silvestre de Moraes</Authors>
+    <Company>Rodrigo Silvestre de Moraes</Company>
+    <Product>SimpleGelf</Product>
+    <Description>This is simple extension the .Net Core for using as provider loggin.</Description>
+    <Copyright>Copyright 2018 - Rodrigo Silvestre de Moraes</Copyright>
+    <PackageTags>Provider Loggin Graylog, Appender, Graylog, Simple</PackageTags>
+    <NeutralLanguage></NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
