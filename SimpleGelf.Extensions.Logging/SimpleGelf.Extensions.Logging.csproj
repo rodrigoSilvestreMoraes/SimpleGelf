@@ -7,9 +7,12 @@
     <Product>SimpleGelf</Product>
     <Description>This is simple extension the .Net Core for using as provider loggin.</Description>
     <Copyright>Copyright 2018 - Rodrigo Silvestre de Moraes</Copyright>
-    <PackageTags>Provider Loggin Graylog, Appender, Graylog, Simple</PackageTags>
+    <PackageTags>Provider Loggin Graylog Appender Graylog Simple</PackageTags>
     <NeutralLanguage></NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>

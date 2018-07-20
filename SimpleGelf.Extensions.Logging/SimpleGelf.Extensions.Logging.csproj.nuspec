@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimpleGelf.Extensions.Logging</id>
+    <version>1.0.0</version>
+    <authors>Rodrigo Silvestre de Moraes</authors>
+    <owners>Rodrigo Silvestre de Moraes</owners>
+    <licenseUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</licenseUrl>
+    <projectUrl>https://github.com/rodrigoSilvestreMoraes/SimpleGelf.git</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package SimpleGelf</description>
+    <releaseNotes>This is simple extension the .Net Core for using as provider loggin..</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Provider Loggin Graylog Appender Graylog Simple</tags>
+    <dependencies>
+      <dependency id="Microsoft.Extensions.Logging" version="2.1.1" />
+	  <dependency id="Microsoft.Extensions.Options" version="2.1.1" />
+	  <dependency id="Newtonsoft.Json" version="11.0.2" />
+    </dependencies>
+  </metadata>
+</package>
