@@ -65,11 +65,7 @@ namespace SimpleGelf.Extensions.Logging
                 default:
                     return SyslogSeverity.Informational;
             }
-        }
-
-       
-
-      
+        }      
     }
     public enum SyslogSeverity
     {

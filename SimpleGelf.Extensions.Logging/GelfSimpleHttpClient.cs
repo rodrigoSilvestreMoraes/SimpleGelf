@@ -55,7 +55,7 @@ namespace SimpleGelf.Extensions.Logging
                 var result = await _httpClient.PostAsync(_baseUrl, content).ConfigureAwait(false);
                 result.EnsureSuccessStatusCode();
             }
-            catch 
+            catch
             {
                 //Pensar em algum outro tipo de log, pois aqui deu erro para enviar para o grayLog
             }            
